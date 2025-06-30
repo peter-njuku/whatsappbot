@@ -1,0 +1,93 @@
+[
+  {
+    "question": "What are the requiremets to join a course",
+    "keywords": [
+      {"text": "course requirements", "weight": 2.0},
+      {"text": "change major", "weight": 1.8},
+      {"text": "extra units", "weight": 1.7},
+      {"text": "class timetable", "weight": 1.9},
+      {"text": "recommended electives", "weight": 1.6},
+      {"text": "audit class", "weight": 1.5},
+      {"text": "course not offered", "weight": 1.8},
+      {"text": "request new course", "weight": 1.5},
+      {"text": "course full", "weight": 1.9},
+      {"text": "transfer credit", "weight": 1.7}
+    ],
+    "reply": "For academic program queries, please contact the Dean's Office. Key info:\n- Timetables released 2 weeks before semester\n- Course changes require advisor approval\n- Transfer credits need syllabus review",
+    "fallback": "Are you asking about course requirements or program changes?"
+  },
+  {
+    "question": "What are the policies of an exam",
+    "keywords": [
+      {"text": "appeal grade", "weight": 2.0},
+      {"text": "supplementary exam", "weight": 1.9},
+      {"text": "missed exam illness", "weight": 2.0},
+      {"text": "view exam script", "weight": 1.5},
+      {"text": "GPA calculation", "weight": 1.7}
+    ],
+    "reply": "Examination policies:\n- Grade appeals within 14 days\n- Medical absences require documentation\n- Script reviews by appointment\n\nContact: exams@university.edu",
+    "fallback": "Need exam-related help? Specify: grade appeal, missed exam, or GPA?"
+  },
+  {
+    "question": "registration",
+    "keywords": [
+      {"text": "register course", "weight": 2.0},
+      {"text": "drop course", "weight": 2.0},
+      {"text": "can't register online", "weight": 1.9},
+      {"text": "defer studies", "weight": 1.8},
+      {"text": "academic transcripts", "weight": 1.7},
+      {"text": "recommendation letter", "weight": 1.6}
+    ],
+    "reply": "Registration help:\n- Add/drop courses first 2 weeks\n- Deferrals require Dean approval\n- Transcripts: registrar.office@university.edu\n- Recommendation letters: Ask professors 3 weeks in advance",
+    "fallback": "Is this about course registration, transcripts, or recommendation letters?"
+  },
+  {
+    "question": "research",
+    "keywords": [
+      {"text": "project supervisor", "weight": 1.9},
+      {"text": "research funding", "weight": 2.0},
+      {"text": "thesis guidelines", "weight": 1.8},
+      {"text": "change project topic", "weight": 1.7},
+      {"text": "research conferences", "weight": 1.6}
+    ],
+    "reply": "Research support:\n- Supervisor lists at department portal\n- Funding deadlines: March 1/Oct 1 yearly\n- Thesis template: uni.edu/thesis-guide\n\nContact: research.office@university.edu",
+    "fallback": "Are you inquiring about research projects, funding, or thesis guidelines?"
+  },
+  {
+    "question": "internships",
+    "keywords": [
+      {"text": "internship compulsory", "weight": 1.9},
+      {"text": "find attachment", "weight": 2.0},
+      {"text": "career support", "weight": 1.8},
+      {"text": "internship letter", "weight": 1.7},
+      {"text": "job partnerships", "weight": 1.6}
+    ],
+    "reply": "Career services:\n- Mandatory for ENG/BUS programs\n- Portal: uni.edu/internships\n- Career fairs every semester\n- Letters: career.center@university.edu",
+    "fallback": "Need internship help? Ask about requirements, opportunities, or letters."
+  },
+  {
+    "question": "policies",
+    "keywords": [
+      {"text": "plagiarism policy", "weight": 2.0},
+      {"text": "class absenteeism", "weight": 1.8},
+      {"text": "academic dishonesty", "weight": 2.0},
+      {"text": "discrimination harassment", "weight": 1.9},
+      {"text": "academic probation", "weight": 1.7}
+    ],
+    "reply": "Key policies:\n- Plagiarism = automatic course failure\n- >30% absences = grade penalty\n- Report harassment: title9@university.edu\n- Probation: GPA <2.0 for 2 semesters",
+    "fallback": "Querying policies? Specify: plagiarism, attendance, or complaints?"
+  },
+  {
+    "question": "student_support",
+    "keywords": [
+      {"text": "mentorship programs", "weight": 1.7},
+      {"text": "concern about lecturer", "weight": 1.9},
+      {"text": "academic struggles", "weight": 2.0},
+      {"text": "counseling services", "weight": 1.8},
+      {"text": "course feedback", "weight": 1.6}
+    ],
+    "reply": "Support services:\n- Mentors: studentlife@university.edu\n- Academic help: tutoring.center\n- Counseling: 24/7 line: +254700123456\n- Feedback: end-of-semester surveys",
+    "fallback": "Need support? Ask about mentoring, counseling, or academic help."
+  }
+]
+
